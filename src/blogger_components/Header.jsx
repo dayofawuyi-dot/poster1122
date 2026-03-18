@@ -9,7 +9,7 @@ const Header = () => {
             <div className="row gx-4 gx-lg-5 justify-content-center">
             <div className="col-md-10 col-lg-8 col-xl-7">
                 <div className="site-heading">
-                <h1>Hello Readers</h1>
+                <h1>Hello Bro</h1>
                 <span className="subheading">A place to express yourself</span>
                 </div>
             </div>
