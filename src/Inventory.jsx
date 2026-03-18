@@ -3,6 +3,7 @@ import Create from "./inventory_components/Create"
 import { useContext, useState } from "react"
 import { AppNameContext } from "./context/AppNameContext"
 import { ProductContext } from "./context/ProductContext"
+import Footer from "./inventory_components/Footer"
 const Inventory = () => {
     // how to use context 
   const {appName} =   useContext(AppNameContext); //which context u wan use
@@ -17,7 +18,7 @@ const Inventory = () => {
             </div>
             <Create />
             <Products />
-            
+            <Footer/>
             {/* other component goes here */}
         </div>
     )
